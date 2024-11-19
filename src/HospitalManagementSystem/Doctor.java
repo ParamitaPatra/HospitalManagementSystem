@@ -19,7 +19,7 @@ public class Doctor {
         try{
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             ResultSet resultSet = preparedStatement.executeQuery();
-            System.out.println("Patients : ");
+            System.out.println("Doctors : ");
             System.out.println("+------------+--------------------+-----------------------+");
             System.out.println("| Doctor Id  | Name               | Specialization        |");
             System.out.println("+------------+--------------------+-----------------------+");
